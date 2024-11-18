@@ -1,6 +1,6 @@
 # Lab Assignment 22
 
-In this lab you will practice working with inheritance.
+In this lab you will practice working with abstraction.
 
 Unlike previous labs, your class has already been created for you. 
 
