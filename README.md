@@ -103,6 +103,15 @@ Refactor each class by inheriting from the `Animal` class and remove any attribu
 
 Once finished, call the `about()` method from `Crocodile`, `Lion`, `Ostrich`, and `Zebra` inside the `Main` class.
 
+After refactoring your code, run the test below to test your code.
+
+**Test Your Code:**
+
+```
+./build.sh
+./test.sh
+```
+
 ## Submit your assignment
 
 To submit your lab assignment click on the **Source Control** icon (3 circles with 2 lines) on your leftside navbar. Next, click on the **+** symbol next to **Changes** to stage your changes. Lastly, add a commit message (ex: "First commit") and click **Commit** then **Sync Changes**. And you're done!
