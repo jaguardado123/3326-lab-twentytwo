@@ -1,6 +1,6 @@
-# Lab Assignment 23
+# Lab 22
 
-In this lab you will practice working with abstraction.
+In this lab you will practice working with **abstraction**.
 
 Unlike previous labs, your class has already been created for you. 
 
@@ -99,7 +99,7 @@ For this assignment you are provided with 5 classes: `Animal`, `Crocodile`, `Lio
 
 The `Animal` class has been made **abstract** to prevent the user from making such a broad/general object. 
 
-Refactor each class by inheriting from the `Animal` class and remove any attributes that will be overriden and override any abstract methods.
+Refactor each class by inheriting from the `Animal` class and removing any duplicate attributes and overriding any abstract methods.
 
 Once finished, call the `about()` method from `Crocodile`, `Lion`, `Ostrich`, and `Zebra` inside the `Main` class.
 
@@ -108,10 +108,18 @@ After refactoring your code, run the test below to test your code.
 **Test Your Code:**
 
 ```
-./build.sh
 ./test.sh
 ```
 
-## Submit your assignment
+**Grading Criteria:**
 
-To submit your lab assignment click on the **Source Control** icon (3 circles with 2 lines) on your leftside navbar. Next, click on the **+** symbol next to **Changes** to stage your changes. Lastly, add a commit message (ex: "First commit") and click **Commit** then **Sync Changes**. And you're done!
+| Criteria | Points |
+|---|---|
+| Program passes all the test cases. | 30 |
+| Lion class inherits Animal class and overrides about(). | 15 |
+| Zebra class inherits Animal class and overrides about(). | 15 |
+| Crocodile class inherits Animal class and overrides about(). | 15 |
+| Ostrich class inherits Animal class and overrides about(). | 15 |
+| There are no duplicate attributes in Lion, Zebra, Ostrich, or Crocodile. | 10 |
+
+[How to Submit Assignments to GitHub](https://joselitoguardado.dev/3326/How_to_Submit_Assignments_to_GitHub.pdf)
