@@ -110,16 +110,3 @@ After refactoring your code, run the test below to test your code.
 ```
 ./test.sh
 ```
-
-**Grading Criteria:**
-
-| Criteria | Points |
-|---|---|
-| Program passes all the test cases. | 30 |
-| Lion class inherits Animal class and overrides about(). | 15 |
-| Zebra class inherits Animal class and overrides about(). | 15 |
-| Crocodile class inherits Animal class and overrides about(). | 15 |
-| Ostrich class inherits Animal class and overrides about(). | 15 |
-| There are no duplicate attributes in Lion, Zebra, Ostrich, or Crocodile. | 10 |
-
-[How to Submit Assignments to GitHub](https://joselitoguardado.dev/3326/How_to_Submit_Assignments_to_GitHub.pdf)
